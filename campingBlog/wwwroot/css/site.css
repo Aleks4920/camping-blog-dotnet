@@ -1,0 +1,76 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+nav {
+    background-color: rgba(148,86,0, 50%) !important;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #FEF8EB !important;
+}
+
+
+.span4 img {
+    margin-right: 10px;
+}
+
+.span4 .img-left {
+    float: left;
+}
+
+.span4 .img-right {
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius:20px;
+}
+
+.hero {
+    background-image: url("https://www.scienceintheclassroom.org/sites/default/files/styles/open_graph/public/magazine-images/06_Seeing-the-forest-for-the-trees.jpg?itok=ArG80Ken");
+    height: 400px;
+    filter: blur(2px);
+    filter: grayscale(30%);
+    filter: hue-rotate(100%);
+}
+
+.img-left {
+    float: left;
+    width: 40%;
+    height:100%;
+}
+
+.img-right {
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+.login{
+    justify-content: right;
+    width:100%;
+}
+
+.footer {
+    position: relative;
+}
+
+.form-inline {
+    margin-top: 8px;
+}
